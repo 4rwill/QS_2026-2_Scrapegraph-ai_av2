@@ -1,0 +1,16 @@
+{
+  "time": "2026-10-10T15:24:50.190398-03:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "dependencies": {
+    "scrapegraphai": false,
+    "langchain": false,
+    "pydantic": true,
+    "jsonschema": false
+  },
+  "errors": [
+    "version: URLError: <urlopen error [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente>",
+    "tags: URLError: <urlopen error [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente>"
+  ],
+  "ready": false
+}

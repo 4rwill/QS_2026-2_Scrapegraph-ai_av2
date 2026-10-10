@@ -1,0 +1,11 @@
+{
+  "id": "LAB-P1-direct-correct",
+  "prompt": "Extraia todos os produtos, nomes e preços atuais do catálogo. Retorne JSON com produtos (nome, preco_brl, fonte, trecho) e motivo. Use null se faltar preço e lista vazia se não houver produtos.\n\nFonte identificada como: correct",
+  "fixture": "correct",
+  "categoria": "laboratório",
+  "context": "<html><body><pre>Produto Aurora: R$ 10.00\nProduto Cedro: R$ 20.00</pre></body></html>\n",
+  "time": "2026-10-10T15:29:49.380237-03:00",
+  "context_sha256": "d549767e12f05878aded03ddf523d7d63dc695fb0b094675056b45c5ecaec1cf",
+  "prompt_sha256": "83fc48b4c20fc6fd49bd15852621154165ad3f9ddaf7365a0abdec49035fc8d0",
+  "system_commit": "194055e203afce41ed4e70365dbc416bad756115"
+}

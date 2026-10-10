@@ -1,0 +1,183 @@
+{
+  "scope": "offline deterministic retest of real baseline outputs; no new model calls",
+  "released": 1,
+  "total": 16,
+  "items": [
+    {
+      "id": "LAB-P1-direct-correct",
+      "input_evidence": "results\\raw\\20261010T175910-baseline\\LAB-P1-direct-correct/response.json",
+      "adapter_released": false,
+      "checks": {
+        "schema_valid": true,
+        "source_valid": true,
+        "supported": false,
+        "errors": []
+      }
+    },
+    {
+      "id": "LAB-P1-direct-irrelevant",
+      "input_evidence": "results\\raw\\20261010T175910-baseline\\LAB-P1-direct-irrelevant/response.json",
+      "adapter_released": false,
+      "checks": {
+        "schema_valid": true,
+        "source_valid": false,
+        "supported": false,
+        "errors": []
+      }
+    },
+    {
+      "id": "LAB-P2-structured-correct",
+      "input_evidence": "results\\raw\\20261010T175910-baseline\\LAB-P2-structured-correct/response.json",
+      "adapter_released": false,
+      "checks": {
+        "schema_valid": true,
+        "source_valid": true,
+        "supported": false,
+        "errors": []
+      }
+    },
+    {
+      "id": "LAB-P2-structured-irrelevant",
+      "input_evidence": "results\\raw\\20261010T175910-baseline\\LAB-P2-structured-irrelevant/response.json",
+      "adapter_released": false,
+      "checks": {
+        "schema_valid": true,
+        "source_valid": true,
+        "supported": false,
+        "errors": []
+      }
+    },
+    {
+      "id": "LAB-P3-few-shot-correct",
+      "input_evidence": "results\\raw\\20261010T175910-baseline\\LAB-P3-few-shot-correct/response.json",
+      "adapter_released": true,
+      "checks": {
+        "schema_valid": true,
+        "source_valid": true,
+        "supported": true,
+        "errors": []
+      }
+    },
+    {
+      "id": "LAB-P3-few-shot-irrelevant",
+      "input_evidence": "results\\raw\\20261010T175910-baseline\\LAB-P3-few-shot-irrelevant/response.json",
+      "adapter_released": false,
+      "checks": {
+        "schema_valid": true,
+        "source_valid": false,
+        "supported": false,
+        "errors": []
+      }
+    },
+    {
+      "id": "CT-01",
+      "input_evidence": "results\\raw\\20261010T175910-baseline\\CT-01/response.json",
+      "adapter_released": false,
+      "checks": {
+        "schema_valid": true,
+        "source_valid": true,
+        "supported": false,
+        "errors": []
+      }
+    },
+    {
+      "id": "CT-02",
+      "input_evidence": "results\\raw\\20261010T175910-baseline\\CT-02/response.json",
+      "adapter_released": false,
+      "checks": {
+        "schema_valid": true,
+        "source_valid": true,
+        "supported": false,
+        "errors": []
+      }
+    },
+    {
+      "id": "CT-03",
+      "input_evidence": "results\\raw\\20261010T175910-baseline\\CT-03/response.json",
+      "adapter_released": false,
+      "checks": {
+        "schema_valid": true,
+        "source_valid": true,
+        "supported": false,
+        "errors": []
+      }
+    },
+    {
+      "id": "CT-04",
+      "input_evidence": "results\\raw\\20261010T175910-baseline\\CT-04/response.json",
+      "adapter_released": false,
+      "checks": {
+        "schema_valid": true,
+        "source_valid": true,
+        "supported": false,
+        "errors": []
+      }
+    },
+    {
+      "id": "CT-05",
+      "input_evidence": "results\\raw\\20261010T175910-baseline\\CT-05/response.json",
+      "adapter_released": false,
+      "checks": {
+        "schema_valid": true,
+        "source_valid": true,
+        "supported": false,
+        "errors": []
+      }
+    },
+    {
+      "id": "CT-06",
+      "input_evidence": "results\\raw\\20261010T175910-baseline\\CT-06/response.json",
+      "adapter_released": false,
+      "checks": {
+        "schema_valid": true,
+        "source_valid": true,
+        "supported": false,
+        "errors": []
+      }
+    },
+    {
+      "id": "CT-07",
+      "input_evidence": "results\\raw\\20261010T175910-baseline\\CT-07/response.json",
+      "adapter_released": false,
+      "checks": {
+        "schema_valid": true,
+        "source_valid": true,
+        "supported": false,
+        "errors": []
+      }
+    },
+    {
+      "id": "CT-08",
+      "input_evidence": "results\\raw\\20261010T175910-baseline\\CT-08/response.json",
+      "adapter_released": false,
+      "checks": {
+        "schema_valid": true,
+        "source_valid": true,
+        "supported": false,
+        "errors": []
+      }
+    },
+    {
+      "id": "CT-09",
+      "input_evidence": "results\\raw\\20261010T175910-baseline\\CT-09/response.json",
+      "adapter_released": false,
+      "checks": {
+        "schema_valid": true,
+        "source_valid": true,
+        "supported": false,
+        "errors": []
+      }
+    },
+    {
+      "id": "CT-10",
+      "input_evidence": "results\\raw\\20261010T175910-baseline\\CT-10/response.json",
+      "adapter_released": false,
+      "checks": {
+        "schema_valid": true,
+        "source_valid": true,
+        "supported": false,
+        "errors": []
+      }
+    }
+  ]
+}

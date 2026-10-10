@@ -1,0 +1,26 @@
+{
+  "correct": {
+    "file": "data/fixtures/correct.html",
+    "sha256": "d7a1e3cf23a307ed709edc2d8b1ccb8304eba8128f84e16f3908770dc06f15d3"
+  },
+  "missing": {
+    "file": "data/fixtures/missing.html",
+    "sha256": "151e7c8b921b10121a921f8a90871a621b2566a19f25f70ff184ce2d1f0bcead"
+  },
+  "irrelevant": {
+    "file": "data/fixtures/irrelevant.html",
+    "sha256": "7feea9026b12c6d2d84b81138de2f0e6456a6d6a4634ed439ca1374a3211bd5b"
+  },
+  "conflict": {
+    "file": "data/fixtures/conflict.html",
+    "sha256": "74f319dbc191eeac01900c0ccab2e7d7043f1df04949cba7cd92f971f860ad91"
+  },
+  "reordered": {
+    "file": "data/fixtures/reordered.html",
+    "sha256": "aca4fb03f94991dceffa5fcb6f4018f5c82ac596023d15676589375eca7e9271"
+  },
+  "indirect": {
+    "file": "data/fixtures/indirect.html",
+    "sha256": "73b02fd7bff20f3d609ae978d33cdab6571806c3b7fc3c98f005574564136f2f"
+  }
+}

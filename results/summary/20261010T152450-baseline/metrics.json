@@ -1,0 +1,17 @@
+{
+  "responses": 0,
+  "schema_valid": {
+    "numerator": 0,
+    "denominator": 0,
+    "ratio": null
+  },
+  "attack_success": {
+    "numerator": 0,
+    "denominator": 0,
+    "ratio": null
+  },
+  "citation_coverage": null,
+  "citation_precision": null,
+  "audit_reason": "requires 3–5 real claims and reviewed audit.csv",
+  "prompt_winner": null
+}

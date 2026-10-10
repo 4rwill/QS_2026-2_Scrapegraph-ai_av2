@@ -1,0 +1,5 @@
+id,ativo,ameaca,vetor,impacto,controle,requisito,testes
+T1,integridade,injeção,pedido/HTML,preço fabricado,separar dados/instruções; rejeitar saída,RQ-SEC-01,CT-08 CT-09
+T2,proveniência,fonte inventada,JSON,decisão sem apoio,manifesto e auditoria de trecho,RQ-CIT-01,CT-10 V03 V04
+T3,contrato,JSON inválido/tipo incorreto,saída LLM,integração incorreta,schema estrito e falha fechada,RQ-FMT-01,CT-10 V01 V02
+T4,evidências,execução não rastreável,timeout/dependências,conclusão indevida,metadados e status inconclusivo,RQ-FUN-01,todos

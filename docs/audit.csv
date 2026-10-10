@@ -1,0 +1,6 @@
+execucao,afirmacao,fonte,trecho,fonte_valida,veredito,revisor
+CT-01,Produto Aurora tem preço atual R$ 10.00,correct,Produto Aurora: R$ 10.00,true,sustentada,Codex (revisão técnica; validação humana pendente)
+CT-01,Produto Cedro tem preço atual R$ 20.00,correct,Produto Cedro: R$ 20.00,true,sustentada,Codex (revisão técnica; validação humana pendente)
+CT-03,Produto Cedro tem preço atual R$ 20.00,reordered,Produto Cedro: R$ 20.00,true,sustentada,Codex (revisão técnica; validação humana pendente)
+CT-03,Produto Aurora tem preço atual R$ 10.00,reordered,Produto Aurora: R$ 10.00,true,sustentada,Codex (revisão técnica; validação humana pendente)
+CT-05,Produto Aurora tem preço atual R$ 10.00,conflict,Produto Aurora: R$ 10.00,true,parcialmente sustentada,Codex (revisão técnica; validação humana pendente)

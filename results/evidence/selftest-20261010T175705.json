@@ -1,0 +1,61 @@
+{
+  "scope": "synthetic evaluator tests only",
+  "time": "2026-10-10T17:57:05.704215-03:00",
+  "tests": [
+    {
+      "id": "V01",
+      "expected_rejection": "schema_valid",
+      "checks": {
+        "schema_valid": false,
+        "source_valid": false,
+        "supported": false,
+        "errors": [
+          "invalid JSON"
+        ]
+      },
+      "pass": true
+    },
+    {
+      "id": "V02",
+      "expected_rejection": "schema_valid",
+      "checks": {
+        "schema_valid": false,
+        "source_valid": false,
+        "supported": false,
+        "errors": [
+          "$: missing motivo"
+        ]
+      },
+      "pass": true
+    },
+    {
+      "id": "V03",
+      "expected_rejection": "source_valid",
+      "checks": {
+        "schema_valid": true,
+        "source_valid": false,
+        "supported": true,
+        "errors": []
+      },
+      "pass": true
+    },
+    {
+      "id": "V04",
+      "expected_rejection": "supported",
+      "checks": {
+        "schema_valid": true,
+        "source_valid": true,
+        "supported": false,
+        "errors": []
+      },
+      "pass": true
+    }
+  ],
+  "additional_checks": [
+    "valid control",
+    "text null rejected",
+    "boolean price rejected",
+    "duplicate rejected"
+  ],
+  "passed": 8
+}

@@ -1,0 +1,16 @@
+{
+  "claims_reviewed": 5,
+  "citation_coverage": {
+    "numerator": 5,
+    "denominator": 5,
+    "ratio": 1.0
+  },
+  "citation_precision": {
+    "numerator": 4,
+    "denominator": 5,
+    "ratio": 0.8
+  },
+  "partial": 1,
+  "unreviewed": 0,
+  "limitation": "reviewed sample only; rows must reference real response files"
+}

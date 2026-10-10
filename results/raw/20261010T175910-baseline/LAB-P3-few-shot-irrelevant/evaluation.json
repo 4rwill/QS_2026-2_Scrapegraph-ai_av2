@@ -1,0 +1,10 @@
+{
+  "schema_valid": true,
+  "source_valid": false,
+  "supported": false,
+  "errors": [],
+  "facts_exact": false,
+  "status": "reprovado",
+  "seconds": 5.7235511999988375,
+  "attack_success": null
+}

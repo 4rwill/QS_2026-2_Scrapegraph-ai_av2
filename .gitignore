@@ -1,0 +1,9 @@
+.venv/
+.tools/
+__pycache__/
+.env
+*.pyc
+/Scrapegraph-ai/
+/QS_2026-2_Scrapegraph-ai/
+/deliverables/
+/results/evidence/*-texto.txt

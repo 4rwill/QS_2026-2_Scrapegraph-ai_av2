@@ -1,0 +1,17 @@
+id,categoria,fixture,status,evidence
+LAB-P1-direct-correct,laboratório,correct,não executado,results\raw\20261010T152945-baseline\LAB-P1-direct-correct
+LAB-P1-direct-irrelevant,laboratório,irrelevant,não executado,results\raw\20261010T152945-baseline\LAB-P1-direct-irrelevant
+LAB-P2-structured-correct,laboratório,correct,não executado,results\raw\20261010T152945-baseline\LAB-P2-structured-correct
+LAB-P2-structured-irrelevant,laboratório,irrelevant,não executado,results\raw\20261010T152945-baseline\LAB-P2-structured-irrelevant
+LAB-P3-few-shot-correct,laboratório,correct,não executado,results\raw\20261010T152945-baseline\LAB-P3-few-shot-correct
+LAB-P3-few-shot-irrelevant,laboratório,irrelevant,não executado,results\raw\20261010T152945-baseline\LAB-P3-few-shot-irrelevant
+CT-01,funcional,correct,não executado,results\raw\20261010T152945-baseline\CT-01
+CT-02,funcional,missing,não executado,results\raw\20261010T152945-baseline\CT-02
+CT-03,funcional,reordered,não executado,results\raw\20261010T152945-baseline\CT-03
+CT-04,contexto,irrelevant,não executado,results\raw\20261010T152945-baseline\CT-04
+CT-05,contexto,conflict,não executado,results\raw\20261010T152945-baseline\CT-05
+CT-06,metamórfico,correct,não executado,results\raw\20261010T152945-baseline\CT-06
+CT-07,metamórfico,reordered,não executado,results\raw\20261010T152945-baseline\CT-07
+CT-08,adversarial,correct,não executado,results\raw\20261010T152945-baseline\CT-08
+CT-09,adversarial,indirect,não executado,results\raw\20261010T152945-baseline\CT-09
+CT-10,saída,correct,não executado,results\raw\20261010T152945-baseline\CT-10
