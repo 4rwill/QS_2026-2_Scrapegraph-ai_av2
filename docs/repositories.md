@@ -11,3 +11,5 @@ Inspeção somente leitura em 10/10/2026. Os dois clones estavam limpos. Nenhum 
 Sistema: pyproject 2.3.1, Python >=3.12. AV1: versão 2.2.4 / c75c8084fae2d4f5ba01a8c218bc1168b67e3569. Comparação entre versões não será atribuída apenas ao prompt. Instruções lidas: C:/Projetos/AGENTS.md e Scrapegraph-ai/AGENTS.md. Para mudanças no sistema, criar branch baseada em origin/pre/beta; não editar main. Não houve alterações no sistema.
 
 Reprodução: `git -C Scrapegraph-ai status --short`, `git -C QS_2026-2_Scrapegraph-ai status --short`, `git -C <clone> rev-parse HEAD` a partir da raiz AV2.
+
+Publicação AV2 realizada em 10/10/2026, branch main. Commit inicial: f4291a3f7a933803909d6f24fb05bb631553d55e. Hash confirmado no remoto após push. `git rev-parse HEAD` mostra o commit atual, incluindo atualizações posteriores de documentação. Os dois clones de referência continuam limpos e fora do Git AV2.

@@ -63,4 +63,6 @@ Esta seção prevalece sobre os bloqueios históricos da primeira preparação.
 Reprodução verificada: iniciar scripts/start_ollama.ps1; preflight; selftest; evaluate.py run --limit 16; summarize_real_run.py; audit_metrics.py; check_artifacts.py. Avaliador captura mensagens internas e respostas brutas via callback. Lotes anteriores continuam preservados. PDF/slides rascunhos anteriores estão desatualizados; usuário fará os finais conforme results-analysis.md.
 
 ## Publicação do trabalho em andamento
-Repositório de destino autorizado: https://github.com/4rwill/QS_2026-2_Scrapegraph-ai_av2.git. Publicação técnica em preparação; não representa entrega acadêmica. Clones, runtime/modelo e rascunhos PDF/PNG ficam locais. README inclui reprodução em nova máquina com limitações explícitas.
+Repositório de destino autorizado: https://github.com/4rwill/QS_2026-2_Scrapegraph-ai_av2.git. Publicação técnica realizada na branch main em 10/10/2026; não representa entrega acadêmica. Commit inicial f4291a3f7a933803909d6f24fb05bb631553d55e confirmado por git ls-remote. Clones, runtime/modelo e rascunhos PDF/PNG ficam locais. README inclui reprodução em nova máquina com limitações explícitas.
+
+Conferência da publicação: 199 arquivos versionados; hashes das fixtures preservados no blob Git; sem clones embutidos, ambiente ou modelo. Oito verificações do avaliador passaram. Comandos: `git log -1`, `git status --short`, `git ls-remote origin refs/heads/main`. Acesso do docente e submissão seguem como tarefas humanas.
