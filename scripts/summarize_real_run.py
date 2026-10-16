@@ -6,6 +6,8 @@ from pathlib import Path
 from evaluate import validate
 
 ROOT=Path(__file__).resolve().parents[1]
+if (ROOT/'results/evidence/human-review-2026-10-15.json').exists():
+    raise FileExistsError('Human review recorded; refusing to overwrite the confirmed audit and analysis. Use audit_metrics.py to recompute metrics.')
 RUN='20261010T175910-baseline'
 rows=json.loads((ROOT/'results/summary'/RUN/'results.json').read_text(encoding='utf-8'))
 out=ROOT/'results/summary'/RUN

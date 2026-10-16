@@ -1,3 +1,5 @@
+> Rascunho histórico de 10/10/2026, desatualizado. O relatório atual é relatorio/relatorio_av2.tex. Auditoria e contribuições foram confirmadas em 15/10/2026 conforme docs/review-confirmation.md. Não usar os bloqueios e pendências abaixo como estado atual.
+
 # Relatório técnico AV2 - RASCUNHO, NÃO SUBMETER
 
 ## Identificação e recorte

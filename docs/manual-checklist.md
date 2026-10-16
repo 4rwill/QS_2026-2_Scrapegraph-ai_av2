@@ -7,8 +7,8 @@ Equipe terá 8 pessoas. Usuário informou em 10/10 que já confirmou pessoalment
 | Transcrever canal/fuso e identificação institucional para entrega | usuário | antes da submissão | confirmação presencial | campos preenchidos pela equipe | manual |
 | Validar missão C/recorte | usuário | 10/10 | mission.md | pedido para prosseguir; decisions.md | verificado |
 | Disponibilizar Ollama/modelo local | Codex autorizado pelo usuário | 10/10 | instalação/download | preflight e lote real 20261010T175910-baseline | verificado |
-| Revisar testes, métricas e 3–5 afirmações | revisores a confirmar | 17/10 | execuções reais | audit.csv assinado | manual |
-| Confirmar contribuições AV2 | todos | 18/10 | trabalho efetivo | contributions.md validado | manual |
+| Revisar testes, métricas e cinco afirmações | equipe, conforme divisão | confirmação em 15/10 | execuções reais | review-confirmation.md; declaração consolidada do representante, sem assinaturas individuais | verificado |
+| Confirmar contribuições AV2 | todos, por declaração do representante | 15/10 | revisões realizadas | contributions.md e review-confirmation.md | verificado |
 | Revisar PDF e slides finais | editor a confirmar | 19/10 | resultados e identificação | conferência de todas as páginas | manual |
 | Gravar vídeo com os 8, até 20 min | todos | 19–20/10 | roteiro; demo testada | vídeo com participação revisada | manual |
 | Hospedar vídeo e testar acesso sem login | responsável a confirmar | 20/10 | vídeo final | URL e teste de acesso do docente | manual |

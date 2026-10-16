@@ -1,0 +1,75 @@
+{
+  "confirmation_date": "2026-10-15",
+  "confirmation_timezone": "America/Sao_Paulo",
+  "source": "resposta explícita do usuário neste chat, como representante da equipe",
+  "statement": "Sim, todos realizaram e concordaram, sem divergências",
+  "individual_signatures": false,
+  "individual_review_dates": null,
+  "run_id": "20261010T175910-baseline",
+  "audit": {
+    "claims": 5,
+    "supported": 4,
+    "partially_supported": 1,
+    "valid_sources": 5,
+    "human_confirmed": true,
+    "disagreements": []
+  },
+  "contributions": [
+    {
+      "name": "Arthur Soares Santana",
+      "activity": "Revisão de requisitos, rastreabilidade, distribuição dos dez casos e robustez",
+      "evidence": "docs/mission.md; tests/cases.csv; resultados CT-01..10",
+      "status": "realizada conforme confirmação do representante"
+    },
+    {
+      "name": "Artur José Soares Santos",
+      "activity": "Revisão de contexto, ausência e conflito",
+      "evidence": "CT-02/04/05; fontes missing, irrelevant, conflict",
+      "status": "realizada conforme confirmação do representante"
+    },
+    {
+      "name": "Christian Will Silva Santos Nunes",
+      "activity": "Revisão da auditoria das cinco afirmações, fontes e evidências",
+      "evidence": "docs/audit.csv; docs/audit-review.md; CT-01/03/05",
+      "status": "realizada conforme confirmação do representante"
+    },
+    {
+      "name": "Eduardo Curcino Monteiro Filho",
+      "activity": "Revisão de metodologia, prompts e validação de schema",
+      "evidence": "docs/methodology.md; prompts/; seis LAB; tests/schema.json; selftest",
+      "status": "realizada conforme confirmação do representante"
+    },
+    {
+      "name": "Eduardo Ferreira Bomfim Filho",
+      "activity": "Revisão de achados, severidades e plano de melhoria",
+      "evidence": "docs/findings.csv; docs/improvement-plan.csv; adapter-retest.json",
+      "status": "realizada conforme confirmação do representante"
+    },
+    {
+      "name": "Iuri Maurício Maia Pereira",
+      "activity": "Revisão de baseline, parâmetros, ameaças e ataques",
+      "evidence": "environment.json; docs/threats.csv; CT-08/09",
+      "status": "realizada conforme confirmação do representante"
+    },
+    {
+      "name": "Pedro César Figueiredo Carneiro",
+      "activity": "Revisão dos metamórficos e limites de estabilidade",
+      "evidence": "CT-01/06/07; docs/results-analysis.md",
+      "status": "realizada conforme confirmação do representante"
+    },
+    {
+      "name": "Rian Purificação de Oliveira",
+      "activity": "Revisão de ambiguidade e coerência editorial dos materiais existentes",
+      "evidence": "CT-05; README.md; relatório; checklist; sem confirmação de vídeo/PDF final",
+      "status": "realizada conforme confirmação do representante"
+    }
+  ],
+  "excluded": [
+    "gravação e hospedagem de vídeo",
+    "revisão do PDF compilado e slides finais",
+    "ensaio/apresentação",
+    "submissão"
+  ],
+  "audit_csv_sha256": "09db05d514acb26741f93f9b7c7dec46b36aa000c5ae1ab70960a5781dee8776",
+  "audit_hash_normalization": "UTF-8 text with universal newline normalization (CRLF/CR to LF)"
+}

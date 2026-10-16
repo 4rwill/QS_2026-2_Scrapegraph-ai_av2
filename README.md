@@ -13,7 +13,7 @@ Ambiente .venv preparado e import de SmartScraperGraph verificado. A criação i
 Materiais: docs/mission.md, system-card.md, methodology.md, threats.csv, findings.csv, improvement-plan.csv, report.md, presentation.md, video-script.md, manual-checklist.md; prompts; tests/cases.csv/schema.json; data/manifest.json. PDF/slides finais dependem dos resultados e revisão. Submissão acadêmica pendente.
 
 ## Resultados reais disponíveis
-Lote 20261010T175910-baseline: 16 respostas reais e 16 chamadas, seis LAB e dez CT. Análise para os materiais: docs/results-analysis.md. Métricas e evidências em results/summary e results/raw. Usuário fará documento, slides e vídeo; PDFs anteriores são rascunhos desatualizados. Auditoria técnica de cinco afirmações preparada, revisão humana pendente. Confirmação presencial com professor declarada pelo usuário em decisions.md.
+Lote 20261010T175910-baseline: 16 respostas reais e 16 chamadas, seis LAB e dez CT. Análise para os materiais: docs/results-analysis.md. Métricas e evidências em results/summary e results/raw. Usuário fará documento, slides e vídeo; PDFs anteriores são rascunhos desatualizados. Auditoria técnica de cinco afirmações e revisões individuais confirmadas pelo representante em 15/10/2026, sem divergências. Registro em docs/review-confirmation.md. Confirmação presencial com professor declarada pelo usuário em decisions.md.
 
 ## Reprodução em outra máquina
 
@@ -37,6 +37,9 @@ Instalar Ollama pela distribuição oficial, iniciar serviço local e executar `
 .venv/Scripts/python.exe scripts/evaluate.py run --limit 16
 ```
 
-Os comandos de avaliação foram executados neste computador. requirements-evaluation.txt contém as versões observadas, com caminho editável relativo. A instalação completa por esse arquivo em ambiente limpo ainda está pendente. Para apenas inspecionar as evidências, não é necessário baixar o modelo. prepare_av2.py é o bootstrap histórico desta máquina e não deve ser reexecutado sobre arquivos existentes. summarize_real_run.py regenera a auditoria técnica do lote fixo; não rodar sobre uma auditoria já revisada por humanos.
+Os comandos de avaliação foram executados neste computador. requirements-evaluation.txt contém as versões observadas, com caminho editável relativo. A instalação completa por esse arquivo em ambiente limpo ainda está pendente. Para apenas inspecionar as evidências, não é necessário baixar o modelo. prepare_av2.py é o bootstrap histórico desta máquina e não deve ser reexecutado sobre arquivos existentes. summarize_real_run.py é histórico e agora recusa sobrescrever a auditoria após a confirmação humana; usar audit_metrics.py para recalcular as métricas.
 
 Arquivos locais excluídos do Git: ambientes, Ollama/modelos, clones, PDFs/PNGs de rascunhos e transcrições integrais de PDFs acadêmicos. Os hashes/origens dos PDFs e registros brutos de avaliação permanecem disponíveis. Os caminhos absolutos nas evidências são metadados históricos.
+
+## Relatório em LaTeX
+Texto-base atualizado, com estrutura da AV1: [relatorio/relatorio_av2.tex](relatorio/relatorio_av2.tex). Instruções e limitações de compilação em [relatorio/README.md](relatorio/README.md). Revisões humanas e contribuições confirmadas pelo representante em 15/10/2026; vídeo, compilação/revisão do PDF, slides finais e submissão permanecem pendentes.
