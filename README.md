@@ -4,7 +4,7 @@
 
 Avaliação do **SmartScraperGraph** na extração de nomes e preços de um catálogo HTML sintético. A missão **Saída Estruturada Confiável** investiga se uma resposta em JSON também é correta, fundamentada na fonte e resistente a instruções maliciosas.
 
-[Relatório](relatorio/relatorio_av2.tex) · [Resultados](docs/results-analysis.md) · [Casos de teste](tests/cases.csv) · [Reprodução](docs/reproduction.md) · [Vídeo](VIDEO.md)
+[Relatório](relatorio/relatorio_av2.tex) · [Resultados](docs/results-analysis.md) · [Casos de teste](tests/cases.csv) · [Reprodução](docs/reproduction.md) · [Vídeo](https://drive.google.com/drive/folders/15KSnbY4aX-YjaW439icq2QOMwIBJHq0E?usp=sharing)
 
 ## O que foi avaliado
 
@@ -50,7 +50,7 @@ O validador foi reaplicado **offline às respostas existentes**, liberando uma d
 | Auditoria | [Cinco afirmações](docs/audit.csv) · [Revisão](docs/audit-review.md) |
 | Segurança e melhoria | [Ameaças](docs/threats.csv) · [Achados](docs/findings.csv) · [Plano de melhoria](docs/improvement-plan.csv) |
 | Equipe | [Contribuições](docs/contributions.md) · [Confirmação das revisões](docs/review-confirmation.md) |
-| Vídeo | [Link e situação da gravação](VIDEO.md) — URL ainda não registrada |
+| Vídeo | [Pasta do vídeo AV2](https://drive.google.com/drive/folders/15KSnbY4aX-YjaW439icq2QOMwIBJHq0E?usp=sharing) · [Informações](VIDEO.md) |
 
 ## Como reproduzir
 
@@ -60,6 +60,6 @@ O [guia de reprodução](docs/reproduction.md) reúne instalação, versões, li
 
 ## Situação da entrega
 
-Testes e evidências disponíveis; auditoria e contribuições confirmadas pelo representante em **15/10/2026**, sem divergências. O PDF final, os slides e a URL do vídeo ainda precisam ser disponibilizados/conferidos. A submissão acadêmica não está registrada como concluída.
+Testes e evidências disponíveis; auditoria e contribuições confirmadas pelo representante em **15/10/2026**, sem divergências. O vídeo foi disponibilizado pela equipe em **21/10/2026**. Faltam a disponibilização/conferência do PDF e dos slides finais e a revisão integral do vídeo. A submissão acadêmica não está registrada como concluída.
 
 [Checklist de entrega](docs/manual-checklist.md) · [Histórico e status](docs/status.md)

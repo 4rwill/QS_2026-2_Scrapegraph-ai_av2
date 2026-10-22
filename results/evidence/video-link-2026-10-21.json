@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-21",
+  "timezone": "America/Sao_Paulo",
+  "folder_url": "https://drive.google.com/drive/folders/15KSnbY4aX-YjaW439icq2QOMwIBJHq0E?usp=sharing",
+  "source": "link fornecido pelo usuário neste chat",
+  "anonymous_folder_check": {
+    "http_status": 200,
+    "title": "AV2 - Google Drive",
+    "video_metadata_present": true,
+    "login_title_detected": false
+  },
+  "full_video_playback_checked": false,
+  "duration_checked": false,
+  "all_members_participation_checked": false,
+  "submission_confirmed": false
+}

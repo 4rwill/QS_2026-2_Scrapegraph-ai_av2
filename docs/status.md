@@ -87,3 +87,6 @@ Gerado output/pdf/roteiro_gravacao_av2_equipe08.pdf, 11 páginas: visão geral, 
 
 ## Organização do README - 21/10/2026
 README reorganizado como página inicial acadêmica: objetivo, fluxo, resultados, materiais e situação da entrega. Instalação, comandos e histórico do ambiente transferidos para docs/reproduction.md, preservando distinção entre executado e preparado. Mantido o título Resultados reais disponíveis para não quebrar navegação usada no vídeo. Sem alteração de código, evidências ou métricas. Pendências humanas não foram declaradas concluídas.
+
+## Vídeo disponibilizado - 21/10/2026
+Equipe forneceu a pasta https://drive.google.com/drive/folders/15KSnbY4aX-YjaW439icq2QOMwIBJHq0E?usp=sharing. URL incluída no README, VIDEO.md e no arquivo existente relatorio/relatorio_av2.tex. Checagem HTTP sem autenticação: 200, título AV2 - Google Drive, metadados de vídeo presentes, sem página de login detectada. Não houve download ou reprodução integral; duração, áudio e participação de todos continuam a conferir pela equipe. Checklist atualizado distinguindo link inserido de recompilação do PDF, que será feita pelo usuário. Submissão não declarada concluída.
