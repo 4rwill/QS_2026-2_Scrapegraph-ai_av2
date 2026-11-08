@@ -4,3 +4,7 @@
 *.md text eol=lf
 data/fixtures/** -text whitespace=cr-at-eol
 results/raw/** -text whitespace=cr-at-eol
+atividade3/results/** -text -whitespace
+atividade3/docs/enunciado-extraido.txt -text -whitespace
+atividade2/data/fixtures/** -text whitespace=cr-at-eol
+atividade2/results/raw/** -text whitespace=cr-at-eol

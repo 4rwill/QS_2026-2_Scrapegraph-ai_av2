@@ -1,0 +1,15 @@
+{
+  "version": "A",
+  "state": "preparado; não executado como bateria final",
+  "prompt": "versions/A/prompt.md",
+  "code": "../../scripts/evaluate.py (worker reutilizado sem alterações) e scripts/experiment.py",
+  "base_repository_commit": "9f9ea26d0c33510b2c486a017445b38e1a8c1e9f",
+  "system_commit": "194055e203afce41ed4e70365dbc416bad756115",
+  "configuration": "config.json",
+  "cases_and_references": "data/cases.json",
+  "reference_review": "data/reference-review.csv",
+  "rubric_and_decision": "docs/protocol.md",
+  "tau": 0.5,
+  "results": null,
+  "change": "P2 AV2"
+}

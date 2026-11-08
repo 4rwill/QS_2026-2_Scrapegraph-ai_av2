@@ -1,0 +1,14 @@
+{
+  "case_id": "CT06",
+  "version": "B",
+  "precision": 0.88,
+  "recall": 0.7333333333333333,
+  "f1": 0.8,
+  "common_tokens": 22,
+  "answer_tokens": 25,
+  "reference_tokens": 30,
+  "automatic_approved": true,
+  "runtime_status": "resposta",
+  "config_matches": true,
+  "output": "B-CT06/response.json"
+}

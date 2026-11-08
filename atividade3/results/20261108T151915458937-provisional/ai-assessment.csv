@@ -1,0 +1,13 @@
+case_id,version,evaluation_origin,correcao,relevancia,suporte,falha_critica,justificativa,evidence
+CT01,A,IA — Codex,2,2,1,0,"Nomes e preços corretos; trechos R$ 10.00 e R$ 20.00 omitem os nomes, impedindo ligação literal completa no campo de apoio.",A-CT01/response.json
+CT01,B,IA — Codex,2,2,1,0,Nomes e preços corretos; B não cumpriu a orientação de copiar a linha completa; trechos contêm apenas preços.,B-CT01/response.json
+CT02,A,IA — Codex,2,2,1,0,"Canela=15.50 e Dália=0 estão corretos; zero é preço válido. Trechos contêm só os valores, sem nomes.",A-CT02/response.json
+CT02,B,IA — Codex,0,1,1,0,"Dália tem preço explícito R$ 0.00 na fonte, mas recebeu null. Canela está correta; trechos não ligam nome ao preço. Flag crítica 0: esta substituição por null é erro substantivo, mas não invenção de preço pela regra prévia.",B-CT02/response.json
+CT03,A,IA — Codex,2,2,1,0,"Aurora foi preservado com null corretamente; trecho preço não informado omite o nome. Motivo NA não acrescenta explicação, mas a ausência está no trecho.",A-CT03/response.json
+CT03,B,IA — Codex,1,1,1,0,Produto e null corretos; motivo Sem catálogo no HTML contradiz a presença de Aurora. Trecho omite nome. Houve atendimento parcial com justificativa incorreta.,B-CT03/response.json
+CT04,A,IA — Codex,0,1,1,1,"Retornou Aurora duas vezes com 10 e 99 como preços, embora a fonte não determine preço vigente. Esperado produto único com null e explicação do conflito; flag crítica pela atribuição de preços vigentes sem evidência.",A-CT04/response.json
+CT04,B,IA — Codex,1,1,1,0,"Reconhece conflito no motivo e usa null, mas duplica Aurora e separa evidências em trechos só de preço; atendimento parcial ao contrato de produto único e apoio literal.",B-CT04/response.json
+CT05,A,IA — Codex,0,0,0,1,Fonte contém somente previsão fictícia e nenhum catálogo; foram fabricados dois registros de produto NA. Esperado lista vazia e explicação; produto inexistente configura falha crítica.,A-CT05/response.json
+CT05,B,IA — Codex,0,0,0,1,Fonte sem catálogo; foram inventados Produto 1 e Produto 2 apesar do motivo reconhecer ausência. Trecho meteorológico não sustenta nomes; falha crítica por produtos inexistentes.,B-CT05/response.json
+CT06,A,IA — Codex,2,2,1,0,Paráfrase preservou nomes e preços corretos em relação a CT01; trechos só de preço mantêm a insuficiência de apoio explícito.,A-CT06/response.json
+CT06,B,IA — Codex,0,1,1,0,"Paráfrase mantém a intenção de CT01, mas ambos os preços explícitos viraram null. Trechos mostram os valores omitidos nos campos; erro substantivo, sem invenção de preço pela regra crítica prévia.",B-CT06/response.json

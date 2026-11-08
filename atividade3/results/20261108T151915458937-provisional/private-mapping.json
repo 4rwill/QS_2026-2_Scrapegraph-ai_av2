@@ -1,0 +1,74 @@
+[
+  {
+    "blind_id": "S01",
+    "case_id": "CT03",
+    "version": "A",
+    "output": "A-CT03/response.json"
+  },
+  {
+    "blind_id": "S02",
+    "case_id": "CT06",
+    "version": "A",
+    "output": "A-CT06/response.json"
+  },
+  {
+    "blind_id": "S03",
+    "case_id": "CT01",
+    "version": "A",
+    "output": "A-CT01/response.json"
+  },
+  {
+    "blind_id": "S04",
+    "case_id": "CT04",
+    "version": "A",
+    "output": "A-CT04/response.json"
+  },
+  {
+    "blind_id": "S05",
+    "case_id": "CT01",
+    "version": "B",
+    "output": "B-CT01/response.json"
+  },
+  {
+    "blind_id": "S06",
+    "case_id": "CT02",
+    "version": "B",
+    "output": "B-CT02/response.json"
+  },
+  {
+    "blind_id": "S07",
+    "case_id": "CT06",
+    "version": "B",
+    "output": "B-CT06/response.json"
+  },
+  {
+    "blind_id": "S08",
+    "case_id": "CT02",
+    "version": "A",
+    "output": "A-CT02/response.json"
+  },
+  {
+    "blind_id": "S09",
+    "case_id": "CT05",
+    "version": "B",
+    "output": "B-CT05/response.json"
+  },
+  {
+    "blind_id": "S10",
+    "case_id": "CT03",
+    "version": "B",
+    "output": "B-CT03/response.json"
+  },
+  {
+    "blind_id": "S11",
+    "case_id": "CT05",
+    "version": "A",
+    "output": "A-CT05/response.json"
+  },
+  {
+    "blind_id": "S12",
+    "case_id": "CT04",
+    "version": "B",
+    "output": "B-CT04/response.json"
+  }
+]

@@ -1,9 +1,4 @@
-# Vídeo de apresentação - AV2
+# Vídeos do projeto
 
-[**Abrir a pasta com o vídeo no Google Drive**](https://drive.google.com/drive/folders/15KSnbY4aX-YjaW439icq2QOMwIBJHq0E?usp=sharing)
-
-Link fornecido pela equipe em **21/10/2026**, também incluído no README e no relatório LaTeX.
-
-A pasta respondeu sem autenticação (HTTP 200, título “AV2 - Google Drive”) e apresentou metadados de vídeo. Essa checagem não incluiu reprodução integral: duração de até 20 minutos, áudio e participação dos oito integrantes devem ser conferidos pela equipe.
-
-A disponibilização do vídeo não comprova submissão da atividade. Após inserir o link, compilar novamente o relatório para incluí-lo no PDF final.
+- [Atividade 2](atividade2/VIDEO.md)
+- [Atividade 3 — pasta informada pela equipe](https://drive.google.com/drive/folders/1ln8dIKPjHpep5eWkHJ-mPIhnB0MO94QZ?usp=sharing) · [Estado da conferência](atividade3/VIDEO.md)

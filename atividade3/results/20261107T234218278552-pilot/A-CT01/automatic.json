@@ -1,0 +1,14 @@
+{
+  "case_id": "CT01",
+  "version": "A",
+  "precision": 0.9629629629629629,
+  "recall": 0.8666666666666667,
+  "f1": 0.912280701754386,
+  "common_tokens": 26,
+  "answer_tokens": 27,
+  "reference_tokens": 30,
+  "automatic_approved": true,
+  "runtime_status": "resposta",
+  "config_matches": true,
+  "output": "A-CT01/response.json"
+}

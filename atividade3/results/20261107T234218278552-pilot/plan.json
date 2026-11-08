@@ -1,0 +1,12 @@
+{
+  "mode": "pilot",
+  "created_at": "2026-11-07T23:42:18.361430-03:00",
+  "tau": 0.5,
+  "jobs": [
+    {
+      "case_id": "CT01",
+      "version": "A"
+    }
+  ],
+  "references_human_reviewed": false
+}

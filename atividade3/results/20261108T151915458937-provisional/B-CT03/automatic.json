@@ -1,0 +1,14 @@
+{
+  "case_id": "CT03",
+  "version": "B",
+  "precision": 0.7647058823529411,
+  "recall": 0.65,
+  "f1": 0.7027027027027027,
+  "common_tokens": 13,
+  "answer_tokens": 17,
+  "reference_tokens": 20,
+  "automatic_approved": true,
+  "runtime_status": "resposta",
+  "config_matches": true,
+  "output": "B-CT03/response.json"
+}

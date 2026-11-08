@@ -1,0 +1,16 @@
+{
+  "version": "A",
+  "state": "executado em lote provisório; revisão humana pendente",
+  "prompt": "versions/A/prompt.md",
+  "code": "../atividade2/scripts/evaluate.py e scripts/experiment.py",
+  "base_repository_commit": "9f9ea26d0c33510b2c486a017445b38e1a8c1e9f",
+  "system_commit": "194055e203afce41ed4e70365dbc416bad756115",
+  "configuration": "config.json",
+  "cases_and_references": "data/cases.json",
+  "reference_review": "data/reference-review.csv",
+  "rubric_and_decision": "docs/protocol.md",
+  "tau": 0.5,
+  "results": "results/20261108T151915458937-provisional",
+  "change": "P2 AV2",
+  "actual_manifest": "results/20261108T151915458937-provisional/manifest-A.json"
+}

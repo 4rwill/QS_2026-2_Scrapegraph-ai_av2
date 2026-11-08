@@ -1,0 +1,82 @@
+[
+  {
+    "slide": 1,
+    "title": "Métricas automáticas e avaliação de respostas",
+    "speaker": "Christian Will Silva Santos Nunes"
+  },
+  {
+    "slide": 2,
+    "title": "Problema, objetivo e escopo",
+    "speaker": "Christian Will Silva Santos Nunes"
+  },
+  {
+    "slide": 3,
+    "title": "Plano GQM",
+    "speaker": "Arthur Soares Santana"
+  },
+  {
+    "slide": 4,
+    "title": "Seis casos, duas versões",
+    "speaker": "Arthur Soares Santana"
+  },
+  {
+    "slide": 5,
+    "title": "Versão A: baseline da AV2",
+    "speaker": "Eduardo Curcino Monteiro Filho"
+  },
+  {
+    "slide": 6,
+    "title": "Versão B: mudança somente no prompt",
+    "speaker": "Eduardo Curcino Monteiro Filho"
+  },
+  {
+    "slide": 7,
+    "title": "Ambiente e controle da execução",
+    "speaker": "Iuri Maurício Maia Pereira"
+  },
+  {
+    "slide": 8,
+    "title": "Ciclo de vida e evidências",
+    "speaker": "Iuri Maurício Maia Pereira"
+  },
+  {
+    "slide": 9,
+    "title": "Rubrica e avaliação humana prevista",
+    "speaker": "Artur José Soares Santos"
+  },
+  {
+    "slide": 10,
+    "title": "Estado das avaliações e do lote",
+    "speaker": "Artur José Soares Santos"
+  },
+  {
+    "slide": 11,
+    "title": "Tabela das 12 respostas",
+    "speaker": "Pedro César Figueiredo Carneiro"
+  },
+  {
+    "slide": 12,
+    "title": "F1 lexical por caso",
+    "speaker": "Pedro César Figueiredo Carneiro"
+  },
+  {
+    "slide": 13,
+    "title": "Um erro factual com F1 alto",
+    "speaker": "Eduardo Ferreira Bomfim Filho"
+  },
+  {
+    "slide": 14,
+    "title": "Interpretação e decisão",
+    "speaker": "Eduardo Ferreira Bomfim Filho"
+  },
+  {
+    "slide": 15,
+    "title": "Limitações e acompanhamento",
+    "speaker": "Rian Purificação de Oliveira"
+  },
+  {
+    "slide": 16,
+    "title": "Materiais e próximos passos",
+    "speaker": "Rian Purificação de Oliveira"
+  }
+]

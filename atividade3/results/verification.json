@@ -1,0 +1,15 @@
+{
+  "time": "2026-11-07T23:45:55.518061-03:00",
+  "command": [
+    "C:\\Projetos\\QS_2026-2_Scrapegraph-ai_Atividade2\\.venv\\Scripts\\python.exe",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "atividade3/tests",
+    "-v"
+  ],
+  "exit_code": 0,
+  "scope": "10 synthetic evaluator controls; not human annotations or model results",
+  "log": "verification-tests.log"
+}

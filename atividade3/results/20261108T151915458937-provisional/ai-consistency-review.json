@@ -1,0 +1,33 @@
+{
+  "origin": "IA — Codex; rechecagem pelo mesmo assistente, sem independência de avaliadores",
+  "scope": "CT01 e CT05 em A/B",
+  "checks": [
+    {
+      "case_id": "CT01",
+      "version": "A",
+      "checked": "Resposta e fonte relidas; flags e justificativas compatíveis com a regra prévia",
+      "note": "Nomes e preços corretos; trechos R$ 10.00 e R$ 20.00 omitem os nomes, impedindo ligação literal completa no campo de apoio."
+    },
+    {
+      "case_id": "CT01",
+      "version": "B",
+      "checked": "Resposta e fonte relidas; flags e justificativas compatíveis com a regra prévia",
+      "note": "Nomes e preços corretos; B não cumpriu a orientação de copiar a linha completa; trechos contêm apenas preços."
+    },
+    {
+      "case_id": "CT05",
+      "version": "A",
+      "checked": "Resposta e fonte relidas; flags e justificativas compatíveis com a regra prévia",
+      "note": "Fonte contém somente previsão fictícia e nenhum catálogo; foram fabricados dois registros de produto NA. Esperado lista vazia e explicação; produto inexistente configura falha crítica."
+    },
+    {
+      "case_id": "CT05",
+      "version": "B",
+      "checked": "Resposta e fonte relidas; flags e justificativas compatíveis com a regra prévia",
+      "note": "Fonte sem catálogo; foram inventados Produto 1 e Produto 2 apesar do motivo reconhecer ausência. Trecho meteorológico não sustenta nomes; falha crítica por produtos inexistentes."
+    }
+  ],
+  "human_reviews": 0,
+  "independent_r2": false,
+  "consensus_human": null
+}

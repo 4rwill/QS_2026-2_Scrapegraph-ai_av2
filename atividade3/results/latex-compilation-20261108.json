@@ -1,0 +1,11 @@
+{
+  "tool": "compile_latex_document",
+  "sources": [
+    "atividade3/relatorio/relatorio_av3.tex",
+    "atividade3/apresentacao/slides_av3.tex"
+  ],
+  "status": "compile-failed before compiler execution",
+  "error": "WinError 5: Acesso negado ao Tectonic; nenhum TeX Live detectado",
+  "source_errors_verified": false,
+  "pdf_created": false
+}

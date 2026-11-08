@@ -1,0 +1,133 @@
+[
+  {
+    "id": "CT01",
+    "type": "funcional",
+    "source": "correct",
+    "question": "Extraia os nomes e os preços atuais de todos os produtos deste catálogo.",
+    "reference": {
+      "produtos": [
+        {
+          "nome": "Produto Aurora",
+          "preco_brl": 10.0,
+          "fonte": "correct",
+          "trecho": "Produto Aurora: R$ 10.00"
+        },
+        {
+          "nome": "Produto Cedro",
+          "preco_brl": 20.0,
+          "fonte": "correct",
+          "trecho": "Produto Cedro: R$ 20.00"
+        }
+      ],
+      "motivo": ""
+    },
+    "related_to": null,
+    "reference_origin": "Proposta preparada por IA diretamente das fontes sintéticas; revisão humana pendente.",
+    "source_sha256": "d549767e12f05878aded03ddf523d7d63dc695fb0b094675056b45c5ecaec1cf"
+  },
+  {
+    "id": "CT02",
+    "type": "funcional",
+    "source": "prices",
+    "question": "Extraia os nomes e os preços atuais de todos os produtos deste catálogo.",
+    "reference": {
+      "produtos": [
+        {
+          "nome": "Produto Canela",
+          "preco_brl": 15.5,
+          "fonte": "prices",
+          "trecho": "Produto Canela: R$ 15.50"
+        },
+        {
+          "nome": "Produto Dália",
+          "preco_brl": 0.0,
+          "fonte": "prices",
+          "trecho": "Produto Dália: R$ 0.00"
+        }
+      ],
+      "motivo": ""
+    },
+    "related_to": null,
+    "reference_origin": "Proposta preparada por IA diretamente das fontes sintéticas; revisão humana pendente.",
+    "source_sha256": "d68d94b67443831a9d60041c99be2c041b35de443b4ec2801db5d005fa8bb117"
+  },
+  {
+    "id": "CT03",
+    "type": "funcional",
+    "source": "missing",
+    "question": "Extraia os nomes e os preços atuais de todos os produtos deste catálogo.",
+    "reference": {
+      "produtos": [
+        {
+          "nome": "Produto Aurora",
+          "preco_brl": null,
+          "fonte": "missing",
+          "trecho": "Produto Aurora: preço não informado"
+        }
+      ],
+      "motivo": "Preço não informado na fonte."
+    },
+    "related_to": null,
+    "reference_origin": "Proposta preparada por IA diretamente das fontes sintéticas; revisão humana pendente.",
+    "source_sha256": "fea6c5a38d093c6cb452602c11f40159d94f62741e5f682abcd0802c33f02115"
+  },
+  {
+    "id": "CT04",
+    "type": "funcional",
+    "source": "conflict",
+    "question": "Extraia os nomes e os preços atuais de todos os produtos deste catálogo.",
+    "reference": {
+      "produtos": [
+        {
+          "nome": "Produto Aurora",
+          "preco_brl": null,
+          "fonte": "conflict",
+          "trecho": "Produto Aurora: R$ 10.00\nProduto Aurora: R$ 99.00"
+        }
+      ],
+      "motivo": "Preços conflitantes, sem indicação de preço vigente."
+    },
+    "related_to": null,
+    "reference_origin": "Proposta preparada por IA diretamente das fontes sintéticas; revisão humana pendente.",
+    "source_sha256": "a29eafe2cea843ee46525ed5139398249219a92485731b9ea930b84a1d09d622"
+  },
+  {
+    "id": "CT05",
+    "type": "sem evidência suficiente",
+    "source": "irrelevant",
+    "question": "Extraia os nomes e os preços atuais de todos os produtos deste catálogo.",
+    "reference": {
+      "produtos": [],
+      "motivo": "Não há catálogo de produtos na fonte; forneça um catálogo."
+    },
+    "related_to": null,
+    "reference_origin": "Proposta preparada por IA diretamente das fontes sintéticas; revisão humana pendente.",
+    "source_sha256": "20920c92cfd29ca2c4dce29dc47cec6586a0e6b460d88e3f992cb21096544c08"
+  },
+  {
+    "id": "CT06",
+    "type": "variação de CT01",
+    "source": "correct",
+    "question": "Liste os produtos deste catálogo e o valor vigente de cada um.",
+    "reference": {
+      "produtos": [
+        {
+          "nome": "Produto Aurora",
+          "preco_brl": 10.0,
+          "fonte": "correct",
+          "trecho": "Produto Aurora: R$ 10.00"
+        },
+        {
+          "nome": "Produto Cedro",
+          "preco_brl": 20.0,
+          "fonte": "correct",
+          "trecho": "Produto Cedro: R$ 20.00"
+        }
+      ],
+      "motivo": ""
+    },
+    "related_to": "CT01",
+    "reference_origin": "Proposta preparada por IA diretamente das fontes sintéticas; revisão humana pendente.",
+    "source_sha256": "d549767e12f05878aded03ddf523d7d63dc695fb0b094675056b45c5ecaec1cf"
+  }
+]

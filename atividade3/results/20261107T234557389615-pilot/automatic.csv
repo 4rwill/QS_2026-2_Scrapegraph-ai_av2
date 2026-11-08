@@ -1,0 +1,2 @@
+case_id,version,precision,recall,f1,common_tokens,answer_tokens,reference_tokens,automatic_approved,runtime_status,config_matches,output
+CT01,A,0.9629629629629629,0.8666666666666667,0.912280701754386,26,27,30,True,resposta,True,A-CT01/response.json

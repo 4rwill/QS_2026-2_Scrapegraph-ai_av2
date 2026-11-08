@@ -1,0 +1,20 @@
+{
+  "config": {
+    "llm": {
+      "model": "ollama/llama3.2:latest",
+      "temperature": 0,
+      "format": "json",
+      "model_tokens": 8192,
+      "num_ctx": 8192
+    },
+    "html_mode": true,
+    "verbose": false,
+    "headless": true,
+    "reattempt": false,
+    "reasoning": false
+  },
+  "tau": 0.5,
+  "timeout_seconds": 120,
+  "expected_model_digest": "a80c4f17acd55265feec403c7aef86be0c25983ab279d83f3bcd3abbcb5b8b72",
+  "expected_system_commit": "194055e203afce41ed4e70365dbc416bad756115"
+}

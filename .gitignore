@@ -7,3 +7,7 @@ __pycache__/
 /QS_2026-2_Scrapegraph-ai/
 /deliverables/
 /results/evidence/*-texto.txt
+/atividade2/results/evidence/*-texto.txt
+/atividade3/.build/
+/atividade3/tests/tmp*/
+/atividade3/tests/test-tmp-*/

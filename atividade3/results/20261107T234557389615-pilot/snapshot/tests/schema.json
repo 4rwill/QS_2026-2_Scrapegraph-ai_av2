@@ -1,0 +1,43 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "produtos",
+    "motivo"
+  ],
+  "properties": {
+    "motivo": {
+      "type": "string"
+    },
+    "produtos": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "nome",
+          "preco_brl",
+          "fonte",
+          "trecho"
+        ],
+        "properties": {
+          "nome": {
+            "type": "string"
+          },
+          "preco_brl": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "fonte": {
+            "type": "string"
+          },
+          "trecho": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

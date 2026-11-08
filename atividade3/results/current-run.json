@@ -1,0 +1,8 @@
+{
+  "run": "results/20261108T151915458937-provisional",
+  "mode": "provisional",
+  "responses": 12,
+  "ai_analysis": "results/20261108T151915458937-provisional/ai-analysis-20261108T152247707442",
+  "human_annotations_completed": 0,
+  "human_references_reviewed": false
+}

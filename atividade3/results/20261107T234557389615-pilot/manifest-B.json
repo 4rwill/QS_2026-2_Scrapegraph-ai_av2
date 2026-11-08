@@ -1,0 +1,106 @@
+{
+  "version": "B",
+  "state": "execução planejada; consultar completion.json",
+  "prompt": "versions/B/prompt.md",
+  "code": "../../scripts/evaluate.py (worker reutilizado sem alterações) e scripts/experiment.py",
+  "base_repository_commit": "9f9ea26d0c33510b2c486a017445b38e1a8c1e9f",
+  "system_commit": "194055e203afce41ed4e70365dbc416bad756115",
+  "configuration": {
+    "config": {
+      "llm": {
+        "model": "ollama/llama3.2:latest",
+        "temperature": 0,
+        "format": "json",
+        "model_tokens": 8192,
+        "num_ctx": 8192
+      },
+      "html_mode": true,
+      "verbose": false,
+      "headless": true,
+      "reattempt": false,
+      "reasoning": false
+    },
+    "tau": 0.5,
+    "timeout_seconds": 120,
+    "expected_model_digest": "a80c4f17acd55265feec403c7aef86be0c25983ab279d83f3bcd3abbcb5b8b72",
+    "expected_system_commit": "194055e203afce41ed4e70365dbc416bad756115"
+  },
+  "cases_and_references": "data/cases.json",
+  "reference_review": "data/reference-review.csv",
+  "rubric_and_decision": "docs/protocol.md",
+  "tau": 0.5,
+  "results": [],
+  "change": "Somente prompt: instruções de apoio literal, null e abstenção",
+  "mode": "pilot",
+  "created_at": "2026-11-07T23:45:57.423796-03:00",
+  "environment": {
+    "time": "2026-11-07T23:45:57.136318-03:00",
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.19045-SP0",
+    "dependencies": {
+      "scrapegraphai": true,
+      "langchain": true,
+      "pydantic": true
+    },
+    "errors": [],
+    "version": {
+      "version": "0.40.2"
+    },
+    "tags": {
+      "models": [
+        {
+          "name": "llama3.2:latest",
+          "model": "llama3.2:latest",
+          "modified_at": "2026-10-10T17:59:08.4730517-03:00",
+          "size": 2019393189,
+          "digest": "a80c4f17acd55265feec403c7aef86be0c25983ab279d83f3bcd3abbcb5b8b72",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "llama",
+            "families": [
+              "llama"
+            ],
+            "parameter_size": "3.2B",
+            "quantization_level": "Q4_K_M",
+            "context_length": 131072,
+            "embedding_length": 3072,
+            "runner": "ggml"
+          },
+          "capabilities": [
+            "completion",
+            "tools"
+          ]
+        }
+      ]
+    },
+    "ready": true,
+    "repository_commit": "9f9ea26d0c33510b2c486a017445b38e1a8c1e9f",
+    "system_commit": "194055e203afce41ed4e70365dbc416bad756115"
+  },
+  "snapshot_hashes": {
+    "atividade3/config.json": "1292b80550586a48c999cb44f8f698e96a5a8323e0afc7b69cce10774a315868",
+    "atividade3/data/cases.json": "b25f03a6b7e4bd9e028fd92aaf52de089248eaf05e47753a9090f703e4ba862b",
+    "atividade3/data/conflict.html": "a29eafe2cea843ee46525ed5139398249219a92485731b9ea930b84a1d09d622",
+    "atividade3/data/correct.html": "d549767e12f05878aded03ddf523d7d63dc695fb0b094675056b45c5ecaec1cf",
+    "atividade3/data/irrelevant.html": "20920c92cfd29ca2c4dce29dc47cec6586a0e6b460d88e3f992cb21096544c08",
+    "atividade3/data/missing.html": "fea6c5a38d093c6cb452602c11f40159d94f62741e5f682abcd0802c33f02115",
+    "atividade3/data/prices.html": "d68d94b67443831a9d60041c99be2c041b35de443b4ec2801db5d005fa8bb117",
+    "atividade3/data/reference-review.csv": "0e0a1a7b56fe9f949fb1c9a9844eede5c9a4572541f5e87878e428befe85e0a4",
+    "atividade3/docs/manual-checklist.md": "0197e1e623fed46bca2845adc9323caa6fea9b82c567ed21721c9f1814f9cb93",
+    "atividade3/docs/presentation-plan.md": "e3b2194d874d18155bfa71511e91cea2dc4eba1de0bbfd06dd3a91352dac53e5",
+    "atividade3/docs/protocol.md": "2b1f4c0f71fe029b4dcc45ccf7baf95a0195ee61193e83820c280da6380a9cd4",
+    "atividade3/docs/report.md": "f578652848510e548654ab6ce7db706be892c6678a2ff3fdedce8cda5e6530ae",
+    "atividade3/docs/status.md": "a6209bfda9ce16375c8ac689ed3f135232e974cfaf27a57b5fb2d1ab3dbdf8aa",
+    "atividade3/scripts/analyze.py": "71bdfd2bb8488cca83fbb51c919711f78f040407d140e0a65ebb1b519913b257",
+    "atividade3/scripts/experiment.py": "0bebff896864cd754524959a57ae9361a14c6929f9178a0194e73d31006e9fa9",
+    "atividade3/scripts/metrics.py": "54c968dacf85edc3881e99adb0ff560a9e892933988cc7271a6c6b08e86e25a3",
+    "atividade3/tests/test_pipeline.py": "a70ff9296e0fd4972e558f8f4be78c60f8e03569f2dee3038276bc14555e76e5",
+    "atividade3/versions/A/manifest.json": "609a04718cddfd08d140c4a97d49700ebcea4eff8b3c9012744ea56ad83dabae",
+    "atividade3/versions/A/prompt.md": "310ad65adb79b92029030400d6c0ea7dab7aa3fdd025bb294f1b6f752d76130f",
+    "atividade3/versions/B/manifest.json": "7805a0f7991c104fb0100276b472f4ec343d868b40ae8a59d0a28f8013476a14",
+    "atividade3/versions/B/prompt.md": "045536334cb64ef3b044974e5bfa88ea8d5b8349110adc4f4742da3b29741d60",
+    "scripts/evaluate.py": "ee1274996ef80f1b48dc9da9ffdf244d7468fab0c11559dfcd54321e39765878",
+    "tests/schema.json": "8bfe7fb700058a76aa2d8b38ed5ef14b53a62638c95653e68a4c4a1b2ea6cb75"
+  }
+}

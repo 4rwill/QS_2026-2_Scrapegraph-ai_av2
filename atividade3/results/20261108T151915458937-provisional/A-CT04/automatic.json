@@ -1,0 +1,14 @@
+{
+  "case_id": "CT04",
+  "version": "A",
+  "precision": 0.6666666666666666,
+  "recall": 0.6666666666666666,
+  "f1": 0.6666666666666666,
+  "common_tokens": 18,
+  "answer_tokens": 27,
+  "reference_tokens": 27,
+  "automatic_approved": true,
+  "runtime_status": "resposta",
+  "config_matches": true,
+  "output": "A-CT04/response.json"
+}

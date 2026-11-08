@@ -1,0 +1,17 @@
+C:\Projetos\QS_2026-2_Scrapegraph-ai_Atividade2\atividade3\tests\test-tmp-d6fe07c00d854b9986ff12253fed011b\analysis-20261107T234729185690
+
+test_blank_annotations_rejected (test_pipeline.PipelineTests.test_blank_annotations_rejected) ... ok
+test_decision_regression_and_critical (test_pipeline.PipelineTests.test_decision_regression_and_critical) ... ok
+test_empty_reference_rejected (test_pipeline.PipelineTests.test_empty_reference_rejected) ... ok
+test_lexical_is_not_fact_check (test_pipeline.PipelineTests.test_lexical_is_not_fact_check) ... ok
+test_multiset_and_empty (test_pipeline.PipelineTests.test_multiset_and_empty) ... ok
+test_no_consensus_overwrite (test_pipeline.PipelineTests.test_no_consensus_overwrite) ... ok
+test_normalization (test_pipeline.PipelineTests.test_normalization) ... ok
+test_real_inputs_and_reference_gate (test_pipeline.PipelineTests.test_real_inputs_and_reference_gate) ... ok
+test_strict_human_approval (test_pipeline.PipelineTests.test_strict_human_approval) ... ok
+test_synthetic_end_to_end_packets_and_analysis (test_pipeline.PipelineTests.test_synthetic_end_to_end_packets_and_analysis) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.123s
+
+OK

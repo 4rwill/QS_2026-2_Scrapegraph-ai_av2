@@ -1,0 +1,21 @@
+{
+  "atividade3/config.json": "1292b80550586a48c999cb44f8f698e96a5a8323e0afc7b69cce10774a315868",
+  "atividade3/data/cases.json": "b25f03a6b7e4bd9e028fd92aaf52de089248eaf05e47753a9090f703e4ba862b",
+  "atividade3/data/conflict.html": "a29eafe2cea843ee46525ed5139398249219a92485731b9ea930b84a1d09d622",
+  "atividade3/data/correct.html": "d549767e12f05878aded03ddf523d7d63dc695fb0b094675056b45c5ecaec1cf",
+  "atividade3/data/irrelevant.html": "20920c92cfd29ca2c4dce29dc47cec6586a0e6b460d88e3f992cb21096544c08",
+  "atividade3/data/missing.html": "fea6c5a38d093c6cb452602c11f40159d94f62741e5f682abcd0802c33f02115",
+  "atividade3/data/prices.html": "d68d94b67443831a9d60041c99be2c041b35de443b4ec2801db5d005fa8bb117",
+  "atividade3/data/reference-review.csv": "0e0a1a7b56fe9f949fb1c9a9844eede5c9a4572541f5e87878e428befe85e0a4",
+  "atividade3/docs/protocol.md": "2b1f4c0f71fe029b4dcc45ccf7baf95a0195ee61193e83820c280da6380a9cd4",
+  "atividade3/scripts/analyze.py": "71bdfd2bb8488cca83fbb51c919711f78f040407d140e0a65ebb1b519913b257",
+  "atividade3/scripts/experiment.py": "571d27ea3f3883dea83c294d2f6654ebc8b451148a7d026b951653a6f1107aee",
+  "atividade3/scripts/metrics.py": "54c968dacf85edc3881e99adb0ff560a9e892933988cc7271a6c6b08e86e25a3",
+  "atividade3/tests/test_pipeline.py": "5e8befac4c924d0ef1a5d8ee50e572aeab05888f57a61d03c21136bc98da76c0",
+  "atividade3/versions/A/manifest.json": "609a04718cddfd08d140c4a97d49700ebcea4eff8b3c9012744ea56ad83dabae",
+  "atividade3/versions/A/prompt.md": "310ad65adb79b92029030400d6c0ea7dab7aa3fdd025bb294f1b6f752d76130f",
+  "atividade3/versions/B/manifest.json": "7805a0f7991c104fb0100276b472f4ec343d868b40ae8a59d0a28f8013476a14",
+  "atividade3/versions/B/prompt.md": "045536334cb64ef3b044974e5bfa88ea8d5b8349110adc4f4742da3b29741d60",
+  "scripts/evaluate.py": "ee1274996ef80f1b48dc9da9ffdf244d7468fab0c11559dfcd54321e39765878",
+  "tests/schema.json": "8bfe7fb700058a76aa2d8b38ed5ef14b53a62638c95653e68a4c4a1b2ea6cb75"
+}
