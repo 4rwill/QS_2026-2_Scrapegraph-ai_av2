@@ -28,4 +28,6 @@
 
 ## Publicação
 
+- [x] Publicado em origin/main, commit 684301c (08/11/2026), no repositório informado pela equipe.
+
 O commit publicado é identificável no histórico do repositório. A publicação dos arquivos não equivale a submissão acadêmica nem conclusão das pendências acima. Se a publicação falhar, o status desta etapa deve informar a falha real.

@@ -59,3 +59,8 @@ Vídeo: link informado pela equipe inserido em README, relatório e VIDEO.md; re
 
 
 Verificação antes da publicação: 65 links Markdown locais válidos; 139 arquivos brutos/fixtures AV2 idênticos ao commit-base; 12 chamadas capturadas no lote AV3 e snapshot íntegro. Após mudança de caminhos, oito controles sintéticos AV2 passaram, a auditoria preservou 5/5 e 4/5 com confirmação de 15/10, e dez controles AV3 passaram. Os testes sintéticos não contam como notas humanas. Compilação de relatório e Beamer tentada; ambas bloqueadas antes de executar por WinError 5. Os fontes continuam editáveis e acompanhados de instruções externas não executadas aqui.
+
+
+## Publicação confirmada — 08/11/2026
+
+Commit `684301c`, enviado a origin/main com sucesso: https://github.com/4rwill/QS_2026-2_Scrapegraph-ai_av2/commit/684301c . Contém a organização atividade2/ e atividade3/, doze respostas provisórias, consolidação auto/IA, relatório e slides em LaTeX, PPTX, roteiro e link do vídeo. A publicação não conclui revisões humanas, compilação PDF ou submissão acadêmica.
